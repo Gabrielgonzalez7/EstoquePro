@@ -7,13 +7,13 @@ if ($isLocal) {
     $host = 'localhost';
     $db   = 'estoquepro';
     $user = 'root';
-    $pass = '';
+    $pass = '****';
 } else {
-    // Configurações do InfinityFree
-    $host = 'sql109.infinityfree.com';
-    $db   = 'if0_43237497_estoquepro';
-    $user = 'if0_43237497';
-    $pass = 'gabriel3518';
+    
+    $host = '';
+    $db   = '';
+    $user = '';
+    $pass = '';
 }
 
 $charset = 'utf8mb4';
